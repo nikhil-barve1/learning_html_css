@@ -1,0 +1,29 @@
+h5 {
+  font-size: 80px;
+  color: red;
+}
+
+/* p {
+  font-size: 60px;
+  color: green;
+} */
+
+.para {
+  color: red;
+}
+
+.fs {
+  font-size: 50px;
+}
+
+.fs1 {
+  font-size: 20px;
+}
+
+#abc {
+  color: blue;
+}
+
+#xyz {
+  font-size: 50px;
+}
