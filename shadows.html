@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .t_shadow {
+        text-align: center;
+        font-size: 80px;
+        color: blue;
+        text-shadow: 23px -25px 4px aqua;
+      }
+
+      .b_shadow {
+        width: 600px;
+        height: 400px;
+        box-shadow: 4px 5px 7px red;
+      }
+
+      .drop_shadow {
+        width: 600px;
+        height: 400px;
+        filter: drop-shadow(5px 6px 7px red);
+      }
+
+      .drop_shadow2 {
+        width: 300px;
+        filter: drop-shadow(8px 6px 7px blue);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="t_shadow">Nikhil Barve</h1>
+
+    <img class="b_shadow" src="/images/dog.jpg" alt="dog" />
+
+    <br />
+    <br />
+
+    <img class="drop_shadow" src="/images/butterfly.png" alt="dog" />
+
+    <br />
+    <br />
+
+    <img class="drop_shadow2" src="/images/dolphin.png" alt="dolphin" />
+  </body>
+</html>
+
+<!-- 
+Interview questions -
+text-shadow: horizontal vertical blur color 
+box-shadow: horizontal vertical blur color 
+
+box-model
+
+-->
