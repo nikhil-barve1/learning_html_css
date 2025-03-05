@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Absolute Example</title>
+    <style>
+      .hall {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background-color: black;
+        top: 100px;
+        left: 300px;
+      }
+
+      .tv {
+        position: absolute;
+        height: 50px;
+        width: 100px;
+        background-color: yellow;
+        left: 150px;
+      }
+
+      .sofa {
+        position: absolute;
+        height: 50px;
+        width: 200px;
+        background-color: red;
+        left: 100px;
+        top: 100px;
+      }
+
+      .fridge {
+        position: absolute;
+        height: 150px;
+        width: 90px;
+        background-color: aqua;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hall">
+      <div class="tv">TV</div>
+      <div class="sofa">Sofa</div>
+      <div class="fridge">Fridge</div>
+    </div>
+  </body>
+</html>
