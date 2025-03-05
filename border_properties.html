@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Properties</title>
+    <style>
+      /* solid, dashed, dotted, double, inset, outset, groove, ridge */
+      .b_properties {
+        border: 4px dashed red;
+        margin: 100px;
+        padding: 30px;
+      }
+
+      .b_properties2 {
+        border: 13px double red;
+        margin: 100px;
+        padding: 30px;
+      }
+
+      .b_image {
+        width: 300px;
+        border: 12px outset burlywood;
+        /* border: 12px;
+        border-color: blue;
+        border-style: groove;
+
+        border-radius: 40px; */
+        border-radius: 40px 60px 40px 60px;
+
+        /* top-left, top-right, bottom-right, bottom-left  */
+      }
+
+      .b_image2 {
+        width: 300px;
+        border: 12px inset blue;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="b_image" src="/images/boat.png" alt="elephant" />
+    <img class="b_image2" src="/images/building.jpg" alt="" />
+    <p class="b_properties">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi
+      perferendis expedita itaque, sunt pariatur odio optio eum est!
+      Repellendus, magnam voluptates mollitia dicta officia quis reiciendis,
+      aliquid modi sed dolores ut veniam eius necessitatibus tenetur, doloremque
+      quaerat nulla? Repellendus ratione excepturi amet distinctio quaerat, unde
+      consequatur ut obcaecati fugiat.
+    </p>
+    <p class="b_properties2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi
+      perferendis expedita itaque, sunt pariatur odio optio eum est!
+      Repellendus, magnam voluptates mollitia dicta officia quis reiciendis,
+      aliquid modi sed dolores ut veniam eius necessitatibus tenetur, doloremque
+      quaerat nulla? Repellendus ratione excepturi amet distinctio quaerat, unde
+      consequatur ut obcaecati fugiat.
+    </p>
+  </body>
+</html>
+
+<!-- 
+Interview questions -
+positions in css ?
+difference between relative and absolute ?
+ -->
