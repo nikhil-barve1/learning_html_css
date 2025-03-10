@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #txt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        letter-spacing: 3.5px;
+        font-size: 3.5rem;
+        font-weight: 700;
+        position: relative;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -webkit-perspective: 100px;
+      }
+
+      #txt b {
+        height: 3.5rem;
+        box-shadow: 0 0.4rem 0.3rem -0.3rem #aaa;
+        color: #979c9f;
+        background: red;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-transform-origin: bottom;
+        -webkit-transform: rotateX(-85deg);
+        animation: getUp;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+      }
+
+      #txt > b:nth-child(2) {
+        animation-delay: 0.25s;
+      }
+      #txt > b:nth-child(3) {
+        animation-delay: 0.5s;
+      }
+      #txt > b:nth-child(4) {
+        animation-delay: 0.75s;
+      }
+      #txt > b:nth-child(5) {
+        animation-delay: 1s;
+      }
+      #txt > b:nth-child(6) {
+        animation-delay: 1.25s;
+      }
+
+      @keyframes getUp {
+        10%,
+        50% {
+          transform: rotateX(0);
+        }
+        0%,
+        60%,
+        100% {
+          transform: rotateX(-85deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="txt">
+      <b>N</b>
+      <b>I</b>
+      <b>K</b>
+      <b>H</b>
+      <b>I</b>
+      <b>L</b>
+    </div>
+  </body>
+</html>
