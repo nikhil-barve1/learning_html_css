@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform Properties</title>
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        border-radius: 30px;
+        float: left;
+        margin-left: 50px;
+        transition: 3s;
+        /* transition-duration: 3s; */
+      }
+
+      .box1:hover {
+        transform: translate(125px, 125px);
+      }
+
+      .box2:hover {
+        transform: translateX(325px);
+      }
+
+      .box3:hover {
+        transform: translateY(325px);
+      }
+
+      .box4:hover {
+        transform: rotate(720deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1">Translate</div>
+    <div class="box box2">TranslateX</div>
+    <div class="box box3">TranslateY</div>
+    <div class="box box4">Rotate</div>
+  </body>
+</html>
